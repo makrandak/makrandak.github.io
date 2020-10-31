@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makrand</title>
+    <link>https://makrandak.github.io/</link>
+    <description>Recent content on Makrand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://makrandak.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An adaptive block solver for simulating two-phase flows</title>
+      <link>https://makrandak.github.io/blog/block-solver/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/blog/block-solver/</guid>
+      <description>Write a bunch of things about the block paper.</description>
+    </item>
+    
+    <item>
+      <title>An adaptive block solver for simulating two-phase flows</title>
+      <link>https://makrandak.github.io/blog/fully-coupled-solver/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/blog/fully-coupled-solver/</guid>
+      <description>Write a bunch of things about the block paper.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://makrandak.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/about/</guid>
+      <description>I am a graduate student at Iowa State University pursuing a PhD co-majoring in Mechanical engineering and Applied Mathematics. I am co-advised by Dr. Baskar Ganapathysubramanian and Dr. James Rossmanith. I work on development and analysis of numerical schemes for high fidelity simulations of fluid flows. As a part of my PhD I am currently developing energy stable numerical methods to simulate two-phase flows using Cahn-Hilliard Navier-Stokes equations. I also have experience in development of tools to analyse and understand complex physical processes like multi-phase flows and turbulence.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://makrandak.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

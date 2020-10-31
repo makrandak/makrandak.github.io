@@ -1,0 +1,25 @@
+[{
+    "title": "An adaptive block solver for simulating two-phase flows",
+    "date": "",
+    "description": "Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.",
+    "body": "Write a bunch of things about the block paper.\n",
+    "ref": "/blog/block-solver/"
+  },{
+    "title": "An adaptive block solver for simulating two-phase flows",
+    "date": "",
+    "description": "Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.",
+    "body": "Write a bunch of things about the block paper.\n",
+    "ref": "/blog/fully-coupled-solver/"
+  },{
+    "title": "About",
+    "date": "",
+    "description": "brief biography",
+    "body": "I am a graduate student at Iowa State University pursuing a PhD co-majoring in Mechanical engineering and Applied Mathematics. I am co-advised by Dr. Baskar Ganapathysubramanian and Dr. James Rossmanith. I work on development and analysis of numerical schemes for high fidelity simulations of fluid flows. As a part of my PhD I am currently developing energy stable numerical methods to simulate two-phase flows using Cahn-Hilliard Navier-Stokes equations. I also have experience in development of tools to analyse and understand complex physical processes like multi-phase flows and turbulence.\nBefore joining Iowa State for my graduate work I had a brief stint as a research associate in Dr. Krishnaswamy Nandakumar\u0026rsquo;s group in Louisiana State University. There I worked on energy transfer processes in multi-phase flows.\n",
+    "ref": "/about/"
+  },{
+    "title": "Contact",
+    "date": "",
+    "description": "",
+    "body": "",
+    "ref": "/contact/"
+  }]

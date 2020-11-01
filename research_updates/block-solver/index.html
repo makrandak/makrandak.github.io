@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>Makrand Khanwale</title>
+<title>An adaptive block solver for simulating two-phase flows - Makrand Khanwale</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,13 +19,22 @@
   <meta name="theme-color" content="#ffffff">
 
 <meta name="generator" content="Hugo 0.68.3" /><meta property="og:site_name" content="Makrand Khanwale">
-  <meta property="og:title" content="Makrand Khanwale">
-  <meta property="og:description" content="Site about work of Makrand Khanwale.">
-  <meta property="description" content="Site about work of Makrand Khanwale.">
-  <meta property="og:url" content="https://makrandak.github.io/">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="An adaptive block solver for simulating two-phase flows">
+  <meta property="og:description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
+  <meta property="description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
+  <meta property="og:url" content="https://makrandak.github.io/research_updates/block-solver/">
+  <meta property="og:type" content="article">
   
-    <meta property="og:image" content="https://makrandak.github.io/img/main/IMG_0022c1.jpg">
+    
+      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic01.jpg">
+      <meta property="og:image:alt" content="Mountain Range Through Clouds">
+    
+      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic02.jpg">
+      <meta property="og:image:alt" content="Desert Scene">
+    
+      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic03.jpg">
+      <meta property="og:image:alt" content="Valley">
+    
   
   <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
 </head>
@@ -33,48 +42,12 @@
   <body>
     
 
-  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
-    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
-      <code>localhost</code> homepage to notify you of any important theme changes.</p>
-      <hr>
-      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 2.0.0 - July 20, 2020<i class="fas fa-exclamation-triangle"></i></h5>
-    <p>Below are the following changes that <em>could</em> be breaking changes for your site. For more details on any change, please refer to <a href="https://github.com/pacollins/hugo-future-imperfect-slim/pull/154">PR #154</a>.</p>
-<p>The major breaking change is:</p>
-<ol>
-<li>Users that have front matter that utilize <code>images</code> (backwards compatibility for <code>featured</code> and associated parameters still remains) <em>will</em> need to adjust from <code>[images]=&quot;SRC&quot;</code> to the new format.</li>
-</ol>
-<pre><code>[[images]]
-    src = &quot;&quot; // Link to image
-    alt = &quot;&quot; // Alt text for image
-    stretch = // Optional: See screenshots for referenced values and outcomes
-</code></pre><p>If you utilize any of the following, there <em>might</em> be a breaking:</p>
-<ol>
-<li>User custom templates <em>may</em> require adjustment.</li>
-<li>User custom i18n languages, or custom templates referencing i18n translations <em>may</em> require adjustment.</li>
-<li>User custom template for comments <em>will</em> require adjustment <em>if</em> it uses the theme&rsquo;s CSS and/or JS.</li>
-<li>User custom CSS <em>may</em> need to adjust due to a variety of class name changes and specificity changes.</li>
-</ol>
-<p>While I realize this is inconvenient, I hope that it is worth it to you in the long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
-
-    <div style="text-align:center;">
-      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
-    </div>
-    <script>
-      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '2.0.0') {
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-      function removeBox() {
-        window.localStorage.setItem('HFIS-version', '2.0.0');
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-    </script>
-  </div>
 <header id="site-header">
   <nav id="site-nav">
     <h1 class="nav-title">
       <a href="/" class="nav">
         
-          Makrand Khanwale
+          An adaptive block solver for simulating two-phase flows
         
       </a>
     </h1>
@@ -132,13 +105,13 @@
 
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2f&amp;title=Makrand%20Khanwale" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fmakrandak.github.io%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -161,8 +134,6 @@
     <footer>
       <ul class="socnet-icons">
         
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/makrandak" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 
@@ -213,10 +184,8 @@
 
       <main id="site-main">
         
-  
-  
-    <article class="post">
-  <header>
+  <article class="post">
+    <header>
   <div class="title">
     
       <h2><a href="/research_updates/block-solver/">An adaptive block solver for simulating two-phase flows</a></h2>
@@ -232,16 +201,35 @@
   </div>
 </header>
 
-  <div class="content">
-    <a href="/research_updates/block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/2019/03/pic01.jpg');">
+    <div id="socnet-share">
+      
+
+
+
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </div>
+    <div class="content">
+      <a href="/research_updates/block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/2019/03/pic01.jpg');">
     <img class="stretchH" src="https://makrandak.github.io/img/2019/03/pic01.jpg" alt="Mountain Range Through Clouds">
   </a>
-    
-    <p>Write a bunch of things about the block paper.</p>
-  </div>
-  <footer>
-    <a href="/research_updates/block-solver/" class="button big">Read More</a>
-    <div class="stats">
+      <p>Write a bunch of things about the block paper.</p>
+
+    </div>
+    <footer>
+      <div class="stats">
   
     <ul class="categories">
       
@@ -262,63 +250,60 @@
   
 </div>
 
-  </footer>
-</article>
+    </footer>
+  </article>
+  
+    
+  <article class="post">
+    
+    <div>
+      <h2 id="say-something">Say Something</h2>
+        <form id="comment-form" class="new-comment" method="POST">
+          
+          <h3 class='reply-notice hidden'>
+            <span class='reply-name'></span>
+          </h3>
 
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/research_updates/fully-coupled-solver/">An adaptive block solver for simulating two-phase flows</a></h2>
-    
-    
-      <p>Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.</p>
-    
-  </div>
-  <div class="meta">
-    <time datetime="2020-10-31 00:00:00 &#43;0000 UTC">October 31, 2020</time>
-    <p>Makrand Khanwale</p>
-    <p>1-Minute Read</p>
-  </div>
-</header>
+          
+          <input type="hidden" name="options[entryId]" value="fddd9a0d0d6216e2e2fb2bcffc12b217">
+          <input type='hidden' name='fields[replyThread]' value=''>
+          <input type='hidden' name='fields[replyID]' value=''>
+          <input type='hidden' name='fields[replyName]' value=''>
 
-  <div class="content">
-    <a href="/research_updates/fully-coupled-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/2019/03/pic01.jpg');">
-    <img class="stretchH" src="https://makrandak.github.io/img/2019/03/pic01.jpg" alt="Mountain Range Through Clouds">
-  </a>
-    
-    <p>Write a bunch of things about the block paper.</p>
-  </div>
-  <footer>
-    <a href="/research_updates/fully-coupled-solver/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/research/">research</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/research/">research</a></li>
-        
-      
-    </ul>
-  
-</div>
+          
+          <input required name='fields[name]' type='text' placeholder='Your Name'>
+          <input name='fields[website]' type='text' placeholder='Your Website'>
+          <input required name='fields[email]' type='email' placeholder='Your Email'>
+          <textarea required name='fields[body]' placeholder='Your Message' rows='10'></textarea>
 
-  </footer>
-</article>
+          
+          
+
+          
+          <div class='submit-notice'>
+            <strong class='submit-notice-text submit-success hidden'>Thanks for your comment! It will be shown on the site once it has been approved.</strong>
+            <strong class='submit-notice-text submit-failed hidden'>Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.</strong>
+          </div>
+
+          
+          <input type='submit' value='Submit' class='button'>
+          <input type='submit' value='Submitted' class='hidden button' disabled>
+          <input type='reset' value='Reset' class='button'>
+        </form>
+    </div>
+
+    
+    <div>
+      <h2>Comments</h2>
+    </div>
+  </article>
+
 
   
   <div class="pagination">
     
+    
+      <a href="/research_updates/fully-coupled-solver/" class="button right"><span>An adaptive block solver for simulating two-phase flows</span></a>
     
   </div>
 
@@ -345,8 +330,6 @@
   
       <ul class="socnet-icons">
         
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/makrandak" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 

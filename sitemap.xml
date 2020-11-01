@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://makrandak.github.io/blog/block-solver/</loc>
+    <loc>https://makrandak.github.io/research_updates/block-solver/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://makrandak.github.io/blog/fully-coupled-solver/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://makrandak.github.io/blog/</loc>
+    <loc>https://makrandak.github.io/research_updates/fully-coupled-solver/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,6 +34,11 @@
   
   <url>
     <loc>https://makrandak.github.io/categories/research/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://makrandak.github.io/research_updates/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   

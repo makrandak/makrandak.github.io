@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>An adaptive block solver for simulating two-phase flows - Makrand Khanwale</title>
+<title>An adaptive fully-coupled second order solver for simulating two-phase flows - Makrand Khanwale</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,21 +19,15 @@
   <meta name="theme-color" content="#ffffff">
 
 <meta name="generator" content="Hugo 0.68.3" /><meta property="og:site_name" content="Makrand Khanwale">
-  <meta property="og:title" content="An adaptive block solver for simulating two-phase flows">
-  <meta property="og:description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
-  <meta property="description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
+  <meta property="og:title" content="An adaptive fully-coupled second order solver for simulating two-phase flows">
+  <meta property="og:description" content="Research work on development of fully coupled solvers deployed on adaptive meshes to simulate two-phase flows.">
+  <meta property="description" content="Research work on development of fully coupled solvers deployed on adaptive meshes to simulate two-phase flows.">
   <meta property="og:url" content="https://makrandak.github.io/research_updates/fully-coupled-solver/">
   <meta property="og:type" content="article">
   
     
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic01.jpg">
-      <meta property="og:image:alt" content="Mountain Range Through Clouds">
-    
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic02.jpg">
-      <meta property="og:image:alt" content="Desert Scene">
-    
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic03.jpg">
-      <meta property="og:image:alt" content="Valley">
+      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/fully-coupled-solver/RT2D.png">
+      <meta property="og:image:alt" content="comparisonWithExperiments">
     
   
   <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
@@ -47,7 +41,7 @@
     <h1 class="nav-title">
       <a href="/" class="nav">
         
-          An adaptive block solver for simulating two-phase flows
+          An adaptive fully-coupled second order solver for simulating two-phase flows
         
       </a>
     </h1>
@@ -105,7 +99,7 @@
 
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2ffully-coupled-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2ffully-coupled-solver%2f&amp;title=An%20adaptive%20fully-coupled%20second%20order%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
@@ -188,16 +182,16 @@
     <header>
   <div class="title">
     
-      <h2><a href="/research_updates/fully-coupled-solver/">An adaptive block solver for simulating two-phase flows</a></h2>
+      <h2><a href="/research_updates/fully-coupled-solver/">An adaptive fully-coupled second order solver for simulating two-phase flows</a></h2>
     
     
-      <p>Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.</p>
+      <p>Research work on development of fully coupled solvers deployed on adaptive meshes to simulate two-phase flows.</p>
     
   </div>
   <div class="meta">
     <time datetime="2020-10-31 00:00:00 &#43;0000 UTC">October 31, 2020</time>
     <p>Makrand Khanwale</p>
-    <p>1-Minute Read</p>
+    <p>2-Minute Read</p>
   </div>
 </header>
 
@@ -208,7 +202,7 @@
 
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2ffully-coupled-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2ffully-coupled-solver%2f&amp;title=An%20adaptive%20fully-coupled%20second%20order%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
@@ -222,10 +216,51 @@
 
     </div>
     <div class="content">
-      <a href="/research_updates/fully-coupled-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/2019/03/pic01.jpg');">
-    <img class="stretchH" src="https://makrandak.github.io/img/2019/03/pic01.jpg" alt="Mountain Range Through Clouds">
+      <a href="/research_updates/fully-coupled-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/content/blog/fully-coupled-solver/RT2D.png');">
+    <img class="" src="https://makrandak.github.io/img/content/blog/fully-coupled-solver/RT2D.png" alt="comparisonWithExperiments">
   </a>
-      <p>Write a bunch of things about the block paper.</p>
+      <h2 id="summary">Summary</h2>
+<p>In our recent work on fully coupled solver for simulating two-phase flows by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations (CHNS).  We use fully implicit non-linear finite element based methods.  The fully coupled approach solves CHNS equations in one full block minimizing the number of matrix assemblies compared to the block approach.</p>
+<hr>
+<h2 id="highlights-of-the-work">Highlights of the work</h2>
+<ul>
+<li>
+<p>A fully coupled method with fewer matrix assemblies per time step to simulate two
+phase flows using the Cahn-Hilliard Navier-Stokes equations.</p>
+</li>
+<li>
+<p>Provably energy-stable second-order scheme.</p>
+</li>
+<li>
+<p>Conforming continuous Galerkin (cG) finite element method in space equipped with
+a residual-based variational multiscale (RBVMS).</p>
+</li>
+<li>
+<p>Parallel numerical implementation using octree-based remeshing with detailed scaling
+analysis.</p>
+</li>
+</ul>
+<hr>
+<h2 id="some-key-results">Some Key results:</h2>
+<h3 id="second-order-in-space-and-time">Second order in space and time:</h3>
+<p><img src="../../img/content/blog/fully-coupled-solver/convergence.png" alt="RT3D">
+In the Figure above: Convergence of of both spatial and temporal errors with a slope of 2 (second order).</p>
+<h3 id="chaotic-2d-rayleigh-taylor-instability">Chaotic 2D Rayleigh-Taylor instability</h3>
+<p><img src="../../img/content/blog/fully-coupled-solver/rt2d.png" alt="RT3D">
+In the Figure above: <em>Rayleigh-Taylor instability in 2D</em> : Q-criterion of Rayleigh Taylor instability for Atwood number of 0.82$ (density ratio of 0.1).  In each panel the left plot illustrates the Q-criterion, and the right plot shows corresponding interface location. These plots are zoomed insets of the domain near the interfacial instabilities.</p>
+<p>Figure illustrates changing the thickness of interface (a computational parameter in phase field model) results in different dynamics in the chaotic regime</p>
+<h3 id="3d-rayleigh-taylor-instability">3D Rayleigh Taylor instability</h3>
+<p><img src="../../img/content/blog/fully-coupled-solver/rt3Dwithmesh.gif" alt="RT3D"></p>
+<p>In the Figure above: Snapshots of the mesh at various time-points in the simulation for Rayleigh-Taylor instability for Atwood number of 0.15.  The figures show half of the mesh of the actual domain to illustrate the refinement around the interface of two fluids represented by the gray iso-surface of phase field = 0.0. The phase field values color the mesh, where blue represents heavy fluid and white represents light fluid.  Here $t $(-) is the non-dimensional time.</p>
+<p>This 3D Rayleigh Taylor case is one of the massively parallel adaptive mesh simulations we have done, with 2 billion unknowns at peak mesh refinement.</p>
+<hr>
+<h2 id="papers-based-on-this-approach">Papers based on this approach</h2>
+<ul>
+<li><strong>Makrand A. Khanwale</strong>, Kumar Saurabh, Milinda Fernando, Victor M Calo, James A Rossmanith, Hari Sundar, and
+Baskar Ganapathysubramanian. “A fully-coupled framework for solving Cahn-Hilliard Navier-Stokes equations:
+Second-order, energy-stable numerical methods on adaptive octree based meshes”. In: Submitted to Computer Methods
+in Applied Mechanics and Engineering : arXiv preprint arXiv:2009.06628 (2020).<a href="https://arxiv.org/abs/2009.06628">[ARXIV]</a></li>
+</ul>
 
     </div>
     <footer>

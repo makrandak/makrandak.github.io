@@ -2,7 +2,7 @@
     "title": "An adaptive block solver for simulating two-phase flows",
     "date": "",
     "description": "Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.",
-    "body": "Write a bunch of things about the block paper.\n",
+    "body": "Summary In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations. We use fully implicit non-linear finite element based methods.\nHighlights of the work   Two-phase flows simulated using thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.\n  Provably energy-stable Crank-Nicolson-type time integration scheme.\n  Continuous Galerkin finite element with variational multi-scale (VMS) used.\n  Deployed a parallel numerical implementation using fast octree-based adaptive meshes.\n  Numerical Implementation Papers based on this approach  Makrand A. Khanwale, Alec D. Lofquist, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian. “Simulating two-phase flows with thermodynamically consistent energy stable Cahn-Hilliard Navier-Stokes equations on parallel adaptive octree based meshes”. In: Journal of Computational Physics 419 (2020), p. 109674. [ARXIV]|[LINK]  ",
     "ref": "/research_updates/block-solver/"
   },{
     "title": "An adaptive block solver for simulating two-phase flows",

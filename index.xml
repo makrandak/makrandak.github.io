@@ -17,7 +17,11 @@
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://makrandak.github.io/research_updates/block-solver/</guid>
-      <description>Write a bunch of things about the block paper.</description>
+      <description>Summary In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations. We use fully implicit non-linear finite element based methods.
+Highlights of the work   Two-phase flows simulated using thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.
+  Provably energy-stable Crank-Nicolson-type time integration scheme.
+  Continuous Galerkin finite element with variational multi-scale (VMS) used.
+  Deployed a parallel numerical implementation using fast octree-based adaptive meshes.</description>
     </item>
     
     <item>

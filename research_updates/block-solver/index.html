@@ -26,11 +26,11 @@
   <meta property="og:type" content="article">
   
     
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic01.jpg">
-      <meta property="og:image:alt" content="Mountain Range Through Clouds">
+      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png">
+      <meta property="og:image:alt" content="comparisonWithExperiments">
     
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic02.jpg">
-      <meta property="og:image:alt" content="Desert Scene">
+      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/block-solver/Numerical_Implementation.png">
+      <meta property="og:image:alt" content="numerical implementation">
     
       <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic03.jpg">
       <meta property="og:image:alt" content="Valley">
@@ -222,10 +222,34 @@
 
     </div>
     <div class="content">
-      <a href="/research_updates/block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/2019/03/pic01.jpg');">
-    <img class="stretchH" src="https://makrandak.github.io/img/2019/03/pic01.jpg" alt="Mountain Range Through Clouds">
+      <a href="/research_updates/block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png');">
+    <img class="" src="https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png" alt="comparisonWithExperiments">
   </a>
-      <p>Write a bunch of things about the block paper.</p>
+      <h2 id="summary">Summary</h2>
+<p>In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.  We use fully implicit non-linear finite element based methods.</p>
+<h2 id="highlights-of-the-work">Highlights of the work</h2>
+<ul>
+<li>
+<p>Two-phase flows simulated using thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.</p>
+</li>
+<li>
+<p>Provably energy-stable Crank-Nicolson-type time integration scheme.</p>
+</li>
+<li>
+<p>Continuous Galerkin finite element with variational multi-scale (VMS) used.</p>
+</li>
+<li>
+<p>Deployed a parallel numerical implementation using fast octree-based adaptive meshes.</p>
+</li>
+</ul>
+<h2 id="numerical-implementation">Numerical Implementation</h2>
+<p><img src="../../img/content/blog/block-solver/Numerical_Implementation.png" alt="Numerical implementation flow"></p>
+<h2 id="papers-based-on-this-approach">Papers based on this approach</h2>
+<ul>
+<li><strong>Makrand A. Khanwale</strong>, Alec D. Lofquist, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian.
+“Simulating two-phase flows with thermodynamically consistent energy stable Cahn-Hilliard Navier-Stokes equations
+on parallel adaptive octree based meshes”. In: Journal of Computational Physics 419 (2020), p. 109674. <a href="https://arxiv.org/abs/1912.12453v3">[ARXIV]</a>|<a href="https://www.sciencedirect.com/science/article/pii/S0021999120304484">[LINK]</a></li>
+</ul>
 
     </div>
     <footer>

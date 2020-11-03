@@ -77,19 +77,11 @@
     </menu>
     <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
     <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
-    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    
     <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
   </nav>
   <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
-  <menu id="lang-menu" class="flyout-menu menu">
-  <a href="#" lang="en" class="nav link active">English (en)</a>
   
-    
-      
-    
-  
-</menu>
-
   
     <menu id="share-menu" class="flyout-menu menu">
       <h1>Share Post</h1>
@@ -219,7 +211,8 @@
       <a href="/research_updates/fully-coupled-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/content/blog/fully-coupled-solver/RT2D.png');">
     <img class="" src="https://makrandak.github.io/img/content/blog/fully-coupled-solver/RT2D.png" alt="comparisonWithExperiments">
   </a>
-      <h2 id="summary">Summary</h2>
+      <p><em>In picture above: Progression of 2D Rayleigh-Taylor instability to chaotic turbulent regime for the density ratio of 1:10.</em></p>
+<h2 id="summary">Summary</h2>
 <p>In our recent work on fully coupled solver for simulating two-phase flows by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations (CHNS).  We use fully implicit non-linear finite element based methods.  The fully coupled approach solves CHNS equations in one full block minimizing the number of matrix assemblies compared to the block approach.</p>
 <hr>
 <h2 id="highlights-of-the-work">Highlights of the work</h2>
@@ -254,7 +247,7 @@ In the Figure above: <em>Rayleigh-Taylor instability in 2D</em> : Q-criterion of
 <p>In the Figure above: Snapshots of the mesh at various time-points in the simulation for Rayleigh-Taylor instability for Atwood number of 0.15.  The figures show half of the mesh of the actual domain to illustrate the refinement around the interface of two fluids represented by the gray iso-surface of phase field = 0.0. The phase field values color the mesh, where blue represents heavy fluid and white represents light fluid.  Here $t $(-) is the non-dimensional time.</p>
 <p>This 3D Rayleigh Taylor case is one of the massively parallel adaptive mesh simulations we have done, with 2 billion unknowns at peak mesh refinement.</p>
 <hr>
-<h2 id="papers-based-on-this-approach">Papers based on this approach</h2>
+<h2 id="publication-based-on-this-approach">Publication based on this approach</h2>
 <ul>
 <li><strong>Makrand A. Khanwale</strong>, Kumar Saurabh, Milinda Fernando, Victor M Calo, James A Rossmanith, Hari Sundar, and
 Baskar Ganapathysubramanian. “A fully-coupled framework for solving Cahn-Hilliard Navier-Stokes equations:

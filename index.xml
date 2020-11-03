@@ -17,11 +17,10 @@
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://makrandak.github.io/research_updates/block-solver/</guid>
-      <description>Summary In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations. We use fully implicit non-linear finite element based methods.
+      <description>In picture above: Comparison of bubble shapes and terminal velocities with experimental results and corresponding streamlines.
+Summary In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations. We use fully implicit non-linear finite element based methods.
  Highlights of the work   Two-phase flows simulated using thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.
-  Provably energy-stable Crank-Nicolson-type time integration scheme.
-  Continuous Galerkin finite element with variational multi-scale (VMS) used.
-  Deployed a parallel numerical implementation using fast octree-based adaptive meshes.</description>
+  Provably energy-stable Crank-Nicolson-type time integration scheme.</description>
     </item>
     
     <item>
@@ -30,8 +29,8 @@
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://makrandak.github.io/research_updates/fully-coupled-solver/</guid>
-      <description>Summary In our recent work on fully coupled solver for simulating two-phase flows by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations (CHNS). We use fully implicit non-linear finite element based methods. The fully coupled approach solves CHNS equations in one full block minimizing the number of matrix assemblies compared to the block approach.
- Highlights of the work   A fully coupled method with fewer matrix assemblies per time step to simulate two phase flows using the Cahn-Hilliard Navier-Stokes equations.</description>
+      <description>In picture above: Progression of 2D Rayleigh-Taylor instability to chaotic turbulent regime for the density ratio of 1:10.
+Summary In our recent work on fully coupled solver for simulating two-phase flows by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations (CHNS). We use fully implicit non-linear finite element based methods. The fully coupled approach solves CHNS equations in one full block minimizing the number of matrix assemblies compared to the block approach.</description>
     </item>
     
     <item>

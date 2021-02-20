@@ -6,11 +6,7 @@
     <description>Recent content on Makrand Khanwale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://makrandak.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://makrandak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An adaptive block solver for simulating two-phase flows</title>
       <link>https://makrandak.github.io/research_updates/block-solver/</link>
@@ -50,6 +46,17 @@ Summary In our recent work on fully coupled solver for simulating two-phase flow
       
       <guid>https://makrandak.github.io/about/</guid>
       <description>I am a graduate student at Iowa State University pursuing a PhD co-majoring in Mechanical engineering and Applied Mathematics. I am co-advised by Dr. Baskar Ganapathysubramanian and Dr. James Rossmanith. I work on development and analysis of numerical schemes for high fidelity simulations of fluid flows. As a part of my PhD, I am currently developing energy stable numerical methods to simulate two-phase flows using Cahn-Hilliard Navier-Stokes equations. I also have experience in development of tools to analyse and understand complex physical processes like multi-phase flows and turbulence.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://makrandak.github.io/experience/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/experience/</guid>
+      <description>Research Experience: Department of Mechanical Engineering and Department of Mathematics, Iowa State University, Ames, Iowa  Graduate Research/Teaching Assistant [2016 – Ongoing]
+Project supervisors: Prof. Baskar Ganapathysubramanian and Prof. James Rossmanith
+Title: Energy-Stable Finite Element Methods for the Simulation of Two-Phase flows using Cahn-Hilliard Navier-Stokes Equations.  Developed energy stable numerical methods for two-phase flows with deformable interfaces using coupled thermodynamically consistent Navier-Stokes and Cahn Hilliard Equations (CHNS). Deployed the CHNS numerical model on a massively parallel adaptive meshing framework Dendro    Synthetik Applied Technologies, Austin, Texas  Research and Development Engineer [August &amp;lsquo;20 &amp;ndash; December &amp;lsquo;20]</description>
     </item>
     
     <item>

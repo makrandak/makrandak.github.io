@@ -35,8 +35,9 @@ Summary In our recent work on fully coupled solver for simulating two-phase flow
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://makrandak.github.io/publications/</guid>
-      <description>In-peer reviewed journals   Kumar Saurabh, Boshun Gao, Milinda Fernando, Songzhe Xu, Biswajit Khara, Makrand A. Khanwale, Ming-Chen Hsu, Adarsh Krishnamurthy, Hari Sundar, and Baskar Ganapathysubramanian. “Industrial scale large eddy simulations (LES) with adaptive octree meshes using immersogeometric analysis”. In: arXiv preprint arXiv:2009.00706 (2020). [ARXIV]
-  Makrand A. Khanwale, Alec D. Lofquist, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian. “Simulating two-phase flows with thermodynamically consistent energy stable Cahn-Hilliard Navier-Stokes equations on parallel adaptive octree based meshes”.</description>
+      <description>In-peer reviewed journals 2020
+  Kumar Saurabh, Boshun Gao, Milinda Fernando, Songzhe Xu, Biswajit Khara, Makrand A. Khanwale, Ming-Chen Hsu, Adarsh Krishnamurthy, Hari Sundar, and Baskar Ganapathysubramanian. “Industrial scale large eddy simulations (LES) with adaptive octree meshes using immersogeometric analysis”. In: To appear in Computers and Mathematics with Applications: arXiv preprint arXiv:2009.00706 (2020). [ARXIV]
+  Makrand A. Khanwale, Alec D. Lofquist, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian.</description>
     </item>
     
     <item>

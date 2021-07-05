@@ -6,7 +6,11 @@
     <description>Recent content in research on Makrand Khanwale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://makrandak.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://makrandak.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>An adaptive block solver for simulating two-phase flows</title>
       <link>https://makrandak.github.io/research_updates/block-solver/</link>

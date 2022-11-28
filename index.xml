@@ -6,10 +6,21 @@
     <description>Recent content on Makrand Khanwale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://makrandak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publications</title>
+      <link>https://makrandak.github.io/publications/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/publications/</guid>
+      <description>In-peer reviewed journals 2023
+ Shahab Mirjalili, Makrand A. Khanwale, and Ali Mani. “Assessment of an energy-based surface tension model for simulation of two-phase flows using second-order phase field methods”. In: Journal of Computational Physics 419 (2023), p. 111795. [ARXIV]|[LINK]  2022
+  Makrand A. Khanwale, Kumar Saurabh, Masado Ishii, Hari Sundar, and Baskar Ganapathysubramanian. &amp;ldquo;Breakup dynamics in primary jet atomization using mesh-and interface-refined Cahn-Hilliard Navier-Stokes.&amp;rdquo; In: Submitted to Physical Review Letters : arXiv preprint arXiv:2209.</description>
+    </item>
     
     <item>
       <title>An adaptive block solver for simulating two-phase flows</title>
@@ -31,17 +42,6 @@ Summary In our recent work on block-solver for simulating two-phase flows with d
       <guid>https://makrandak.github.io/research_updates/fully-coupled-solver/</guid>
       <description>In picture above: Progression of 2D Rayleigh-Taylor instability to chaotic turbulent regime for the density ratio of 1:10.
 Summary In our recent work on fully coupled solver for simulating two-phase flows by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations (CHNS). We use fully implicit non-linear finite element based methods. The fully coupled approach solves CHNS equations in one full block minimizing the number of matrix assemblies compared to the block approach.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://makrandak.github.io/publications/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://makrandak.github.io/publications/</guid>
-      <description>In-peer reviewed journals 2021
- Makrand A. Khanwale, Kumar Saurabh, Masado Ishii, Hari Sundar, and James A. Rossmanith. &amp;ldquo;A projection-based, semi-implicit time-stepping approach for the Cahn-Hilliard Navier-Stokes equations on adaptive octree meshes.&amp;rdquo; In: Submitted to Journal of Computational Physics : arXiv preprint arXiv:2107.05123 (2021). [ARXIV]  2020
-  Kumar Saurabh, Boshun Gao, Milinda Fernando, Songzhe Xu, Biswajit Khara, Makrand A. Khanwale, Ming-Chen Hsu, Adarsh Krishnamurthy, Hari Sundar, and Baskar Ganapathysubramanian.</description>
     </item>
     
     <item>

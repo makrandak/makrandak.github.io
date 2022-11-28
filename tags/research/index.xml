@@ -6,10 +6,20 @@
     <description>Recent content in research on Makrand Khanwale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://makrandak.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An efficient semi-implicit block second order solver for simulating two-phase flows</title>
+      <link>https://makrandak.github.io/research_updates/projection-block-solver/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/research_updates/projection-block-solver/</guid>
+      <description>In picture above: Progressive zoomed in mesh for Rayleigh Taylor instability in the chaotic turbulent regime for the density ratio of 1:10.
+Summary In this work we present a projection-based framework for solving a thermodynamically-consistent Cahn-Hilliard Navier-Stokes system that models two-phase flows. In this work we extend the fully implicit method presented in Khanwale et al. [A fully-coupled framework for solving Cahn-Hilliard Navier-Stokes equa- tions: Second-order, energy-stable numerical methods on adaptive octree based meshes.</description>
+    </item>
     
     <item>
       <title>An adaptive block solver for simulating two-phase flows</title>

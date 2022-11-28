@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>An adaptive block solver for simulating two-phase flows - Makrand Khanwale</title>
+<title>An efficient semi-implicit block second order solver for simulating two-phase flows - Makrand Khanwale</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,21 +19,15 @@
   <meta name="theme-color" content="#ffffff">
 
 <meta name="generator" content="Hugo 0.68.3" /><meta property="og:site_name" content="Makrand Khanwale">
-  <meta property="og:title" content="An adaptive block solver for simulating two-phase flows">
-  <meta property="og:description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
-  <meta property="description" content="Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.">
-  <meta property="og:url" content="https://makrandak.github.io/research_updates/block-solver/">
+  <meta property="og:title" content="An efficient semi-implicit block second order solver for simulating two-phase flows">
+  <meta property="og:description" content="Our work on development of block projection semi-implicit schemes which are about 4 times faster than fully coupled schemes while preserving stability features.">
+  <meta property="description" content="Our work on development of block projection semi-implicit schemes which are about 4 times faster than fully coupled schemes while preserving stability features.">
+  <meta property="og:url" content="https://makrandak.github.io/research_updates/projection-block-solver/">
   <meta property="og:type" content="article">
   
     
-      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png">
-      <meta property="og:image:alt" content="comparisonWithExperiments">
-    
-      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/block-solver/Numerical_Implementation.png">
-      <meta property="og:image:alt" content="numerical implementation">
-    
-      <meta property="og:image" content="https://makrandak.github.io/img/2019/03/pic03.jpg">
-      <meta property="og:image:alt" content="Valley">
+      <meta property="og:image" content="https://makrandak.github.io/img/content/blog/projection-block-solver/progressive_zoom_gs_100dpi.png">
+      <meta property="og:image:alt" content="progressive_zoom">
     
   
   <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
@@ -47,7 +41,7 @@
     <h1 class="nav-title">
       <a href="/" class="nav">
         
-          An adaptive block solver for simulating two-phase flows
+          An efficient semi-implicit block second order solver for simulating two-phase flows
         
       </a>
     </h1>
@@ -102,13 +96,13 @@
 
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fprojection-block-solver%2f&amp;title=An%20efficient%20semi-implicit%20block%20second%20order%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fprojection-block-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -185,16 +179,16 @@
     <header>
   <div class="title">
     
-      <h2><a href="/research_updates/block-solver/">An adaptive block solver for simulating two-phase flows</a></h2>
+      <h2><a href="/research_updates/projection-block-solver/">An efficient semi-implicit block second order solver for simulating two-phase flows</a></h2>
     
     
-      <p>Research work on development of block solvers deployed on adaptive meshes to simulate two-phase flows.</p>
+      <p>Our work on development of block projection semi-implicit schemes which are about 4 times faster than fully coupled schemes while preserving stability features.</p>
     
   </div>
   <div class="meta">
-    <time datetime="2020-10-31 00:00:00 &#43;0000 UTC">October 31, 2020</time>
+    <time datetime="2022-11-27 00:00:00 &#43;0000 UTC">November 27, 2022</time>
     <p>Makrand Khanwale</p>
-    <p>1-Minute Read</p>
+    <p>4-Minute Read</p>
   </div>
 </header>
 
@@ -205,13 +199,13 @@
 
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f&amp;title=An%20adaptive%20block%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fprojection-block-solver%2f&amp;title=An%20efficient%20semi-implicit%20block%20second%20order%20solver%20for%20simulating%20two-phase%20flows" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fblock-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Check%20out%20this%20post%20by Makrand%20Khanwale&amp;body=https%3a%2f%2fmakrandak.github.io%2fresearch_updates%2fprojection-block-solver%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -219,37 +213,63 @@
 
     </div>
     <div class="content">
-      <a href="/research_updates/block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png');">
-    <img class="" src="https://makrandak.github.io/img/content/blog/block-solver/blog_banner.png" alt="comparisonWithExperiments">
+      <a href="/research_updates/projection-block-solver/" class="image" style="--bg-image: url('https://makrandak.github.io/img/content/blog/projection-block-solver/progressive_zoom_gs_100dpi.png');">
+    <img class="" src="https://makrandak.github.io/img/content/blog/projection-block-solver/progressive_zoom_gs_100dpi.png" alt="progressive_zoom">
   </a>
-      <p><em>In picture above: Comparison of bubble shapes and terminal velocities with experimental results and corresponding streamlines.</em></p>
+      <p><em>In picture above: Progressive zoomed in mesh for Rayleigh Taylor instability in the chaotic turbulent regime for the density ratio of 1:10.</em></p>
 <h2 id="summary">Summary</h2>
-<p>In our recent work on block-solver for simulating two-phase flows with deforming interfaces at various density contrasts by solving thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.  We use fully implicit non-linear finite element based methods.</p>
+<p>In this work we present a projection-based framework for solving a thermodynamically-consistent Cahn-Hilliard
+Navier-Stokes system that models two-phase flows. In this work we extend the fully implicit method
+presented in Khanwale et al. [A fully-coupled framework for solving Cahn-Hilliard Navier-Stokes equa-
+tions: Second-order, energy-stable numerical methods on adaptive octree based meshes., Computer Physics Communications, 280 (2022), 108501], to a block iterative hybrid method. We use a projection-based semi-implicit time discretization for the Navier-Stokes and a fully-implicit time discretization for the Cahn-Hilliard equation.</p>
+<p>We deploy this approach on a massively parallel numerical implementation using parallel octree-based adaptive meshes. The overall approach allows the use of relatively large time steps with much faster time-to-solve. We
+present comprehensive numerical experiments showing detailed comparisons with results from
+the literature for canonical cases, including the single bubble rise and Rayleigh-Taylor instability.</p>
+<p>We make the framework called <a href="https://bitbucket.org/baskargroup/proteus/src/master/">[PROTEUS]</a> in which we implemented this solver open source.</p>
 <hr>
 <h2 id="highlights-of-the-work">Highlights of the work</h2>
 <ul>
-<li>
-<p>Two-phase flows simulated using thermodynamically consistent Cahn-Hilliard Navier-Stokes equations.</p>
-</li>
-<li>
-<p>Provably energy-stable Crank-Nicolson-type time integration scheme.</p>
-</li>
-<li>
-<p>Continuous Galerkin finite element with variational multi-scale (VMS) used.</p>
-</li>
-<li>
-<p>Deployed a parallel numerical implementation using fast octree-based adaptive meshes.</p>
-</li>
+<li>A projection-based framework for solving a thermodynamically-consistent Cahn-
+Hilliard Navier-Stokes system that models two-phase flows.</li>
+<li>A block iterative, semi-implicit time discretization for the Navier-Stokes and a fully-
+implicit time discretization for the Cahn-Hilliard equation.</li>
+<li>Variational multiscale approach used to stabilize the decoupled pressure projection and
+circumvent discrete inf-sup condition.</li>
+<li>Pressure decoupling results in two linear positive semi-definite systems for velocity and
+pressure, instead of the saddle point system.</li>
+<li>An improved parallel numerical implementation using fast octree-based adaptive
+meshes is presented.</li>
 </ul>
 <hr>
-<h2 id="numerical-implementation">Numerical Implementation</h2>
-<p><img src="../../img/content/blog/block-solver/Numerical_Implementation.png" alt="Numerical implementation flow"></p>
+<h2 id="some-key-results">Some Key results:</h2>
+<h3 id="chaotic-2d-rayleigh-taylor-instability">Chaotic 2D Rayleigh-Taylor instability</h3>
+<p><img src="../../img/content/blog/projection-block-solver/q-criterion_big_crop_label.png" alt="RT2D">
+In the Figure above: <em>Rayleigh-Taylor instability in 2D</em> : turbulent dynamics in Rayleigh Taylor instability for  for Atwood number of 0.82 (density ratio of 0.1).  (a) Shows the interface; (b) shows vorticity (c) Q-criterion (d) Q-criterion
+threshold between 1.9 and 2</p>
+<p>The figure shows vortex dynamics at long times in RTI.  We perform vortex identification using Q-
+criterion. Figure shows turbulent instability in RTI. Panel (a) shows the complex mixing
+structure of the interface in RTI in the
+chaotic regime, panel (b) shows the vorticity in the
+system after a very long time (4.962), panel (c) shows the Q-criterion at the same time.
+To identify vortices we threshold the Q-criterion between 1.9 and 2 which is shown in
+panel (d). It can be clearly seen that a myriad of small scale structures generated near the
+filaments due to shear instability, and are resolved in our simulation. Note that as this is a 2D case,
+therefore there is no vortex stretching, instead we have a redistribution of vorticity through the
+non-linear convection. It is well known that there is a strong inverse cascade in the case of 2D turbulence and small scale structures combine to form large scale vortical structures. Therefore, it is even more important to resolve these near interface vortical structures which eventually feed in energy to the larger scales to correctly capture the large scale mixing in the system. This fine scale resolution has a profound influence on the higher-order statistics of Rayleigh-Taylor instability.</p>
+<h3 id="performance-improvement">Performance improvement</h3>
+<p><img src="../../img/content/blog/projection-block-solver/speedup.png" alt="RT3D"></p>
+<p>In the Figure above:  Comparison of total solve time presented in this work in comparison to the fully coupled method in our fully coupled method.</p>
+<p>The projection method presented in this paper in conjunction with the variational multiscale
+approach, allows us to construct operators which are elliptic in each block. This allows for a selec-
+tion of cheaper preconditioners compared to the pressure stabilized approach in pressure coupled methods. Additionally, the block projection approach also allows us to selectively provide implicit treat-
+ment and decreases cost, e.g. Cahn-Hilliard operators are fully implicit, while the Navier-Stokes
+operators are now semi-implicit, which linearizes the operator. We can observed that both methods scale
+well, however the projection method is consistently cheaper than the fully-coupled method (see figure above). We
+observe a speedup of roughly 2.5 to 4 times with the block projection method.</p>
 <hr>
 <h2 id="publication-based-on-this-approach">Publication based on this approach</h2>
 <ul>
-<li><strong>Makrand A. Khanwale</strong>, Alec D. Lofquist, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian.
-“Simulating two-phase flows with thermodynamically consistent energy stable Cahn-Hilliard Navier-Stokes equations
-on parallel adaptive octree based meshes”. In: Journal of Computational Physics 419 (2020), p. 109674. <a href="https://arxiv.org/abs/1912.12453v3">[ARXIV]</a>|<a href="https://www.sciencedirect.com/science/article/pii/S0021999120304484">[LINK]</a></li>
+<li><strong>Makrand A. Khanwale</strong>, Kumar Saurabh, Masado Ishii, Hari Sundar, and James A. Rossmanith. &ldquo;A projection-based, semi-implicit time-stepping approach for the Cahn-Hilliard Navier-Stokes equations on adaptive octree meshes.&rdquo; In: Submitted to Journal of Computational Physics : arXiv preprint arXiv:2107.05123 (2021). <a href="https://arxiv.org/abs/2107.05123">[ARXIV]</a></li>
 </ul>
 
     </div>
@@ -290,7 +310,7 @@ on parallel adaptive octree based meshes”. In: Journal of Computational Physic
           </h3>
 
           
-          <input type="hidden" name="options[entryId]" value="fddd9a0d0d6216e2e2fb2bcffc12b217">
+          <input type="hidden" name="options[entryId]" value="b1623f1a51383f78cb0285b8393b225c">
           <input type='hidden' name='fields[replyThread]' value=''>
           <input type='hidden' name='fields[replyID]' value=''>
           <input type='hidden' name='fields[replyName]' value=''>
@@ -327,10 +347,8 @@ on parallel adaptive octree based meshes”. In: Journal of Computational Physic
   
   <div class="pagination">
     
-      <a href="/research_updates/projection-block-solver/" class="button left"><span>An efficient semi-implicit block second order solver for simulating two-phase flows</span></a>
     
-    
-      <a href="/research_updates/fully-coupled-solver/" class="button right"><span>An adaptive fully-coupled second order solver for simulating two-phase flows</span></a>
+      <a href="/research_updates/block-solver/" class="button right"><span>An adaptive block solver for simulating two-phase flows</span></a>
     
   </div>
 

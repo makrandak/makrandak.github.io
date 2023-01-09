@@ -28,8 +28,8 @@ Summary In this work we present a projection-based framework for solving a therm
       
       <guid>https://makrandak.github.io/publications/</guid>
       <description>In-peer reviewed journals 2023
- Shahab Mirjalili, Makrand A. Khanwale, and Ali Mani. “Assessment of an energy-based surface tension model for simulation of two-phase flows using second-order phase field methods”. In: Journal of Computational Physics 419 (2023), p. 111795. [ARXIV]|[LINK]  2022
-  Makrand A. Khanwale, Kumar Saurabh, Masado Ishii, Hari Sundar, and Baskar Ganapathysubramanian. &amp;ldquo;Breakup dynamics in primary jet atomization using mesh-and interface-refined Cahn-Hilliard Navier-Stokes.&amp;rdquo; In: Submitted to Physical Review Letters : arXiv preprint arXiv:2209.</description>
+  Makrand A. Khanwale, Kumar Saurabh, Masado Ishii, Hari Sundar, James A. Rossmanith, and Baskar Ganapathysubramanian. “A projection-based, semi-implicit time-stepping approach for the Cahn-Hilliard Navier-Stokes equations on adaptive octree meshes”. In: Journal of Computational Physics 475 (2023), p. 111874 [ARXIV]|[LINK]
+  Shahab Mirjalili, Makrand A. Khanwale, and Ali Mani. “Assessment of an energy-based surface tension model for simulation of two-phase flows using second-order phase field methods”.</description>
     </item>
     
     <item>

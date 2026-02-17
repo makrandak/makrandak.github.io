@@ -28,9 +28,9 @@ Summary In this work we present a projection-based framework for solving a therm
       
       <guid>https://makrandak.github.io/publications/</guid>
       <description>In-peer reviewed journals Star * denotes equal contribution
-2024
-  Sungu Kim∗, Kumar Saurabh∗, Makrand A. Khanwale∗, Ali Mani, Robbyn K Anand, and Baskar Ganapathysubramanian. “Direct numerical simulation of electrokinetic transport phenomena in fluids: Variational multi-scale stabilization and octree-based mesh refinement”. Journal of Computational Physics 500 (2024), p. 112747 [ARXIV]|[LINK]
-  Ali Rabeh∗, Makrand A. Khanwale∗, Jonghyun Lee, and Baskar Ganapathysubramanian. “Modeling and simulations of high-density two-phase flows using projection-based Cahn-Hilliard Navier-Stokes equations”.</description>
+2026
+ Kumar Saurabh, Makrand A. Khanwale, Masado Ishii, Hari Sundar, and Baskar Ganapathysubramanian. “Field conserving adaptive mesh refinement (AMR) scheme on massively parallel adaptive octree meshes”. arXiv preprint arXiv:2602.07817 (2026). [ARXIV]  2025
+ Reed L Brown, Shahab Mirjalili, Makrand A. Khanwale, and Ali Mani. “A mass-conserving contact line treatment for second-order conservative phase field methods based on the generalized Navier boundary condition”.</description>
     </item>
     
     <item>
@@ -56,23 +56,15 @@ Summary In our recent work on fully coupled solver for simulating two-phase flow
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://makrandak.github.io/about/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://makrandak.github.io/about/</guid>
-      <description>I am currently a Physical Science Research Scientist at the Department of Mechanical Engineering at Stanford University, working with Prof. Ali Mani and Prof. Gianluca Iaccarino. As a part of my work at Stanford, I have been involved in multiple projects. In my most recent work, I am using high-fidelity simulations of forced turbulence to learn reduced-order Reynolds Stress Models. I am also currently working on modeling compressible multiphase flows for the INSIEME project under the PSAAP III program at Stanford.</description>
-    </item>
-    
-    <item>
       <title>Experience</title>
       <link>https://makrandak.github.io/experience/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://makrandak.github.io/experience/</guid>
-      <description>Research Experience: Department of Mechanical Engineering, Stanford University, CA  Physical Science Research Scientist [Sept 2024 - Ongoing]
-Project supervisors: Prof. Ali Mani  Center for Turbulence Research, Department of Mechanical Engineering, Stanford University, CA  Postdoctoral Fellow [Aug 2021 - Aug 2024]
-Project supervisors: Prof. Ali Mani  Department of Mechanical Engineering and Department of Mathematics, Iowa State University, Ames, Iowa  Graduate Research/Teaching Assistant [Aug 2016 – Aug 2021]</description>
+      <description>Research Appointments Department of Mechanical Engineering, Stanford University, California, USA Physical Science Research Scientist
+September 2024 – Present
+Supervisor: Prof. Ali Mani
+ Develop Reynolds-stress-based turbulence closure models using high-fidelity direct numerical simulations. Develop computational frameworks for modeling compressible multiphase flows for the INSIEME project under the PSAAP-III program. Design scalable numerical methods and simulation tools for multiphysics flow systems on modern high-performance computing architectures.  Center for Turbulence Research, Department of Mechanical Engineering, Stanford University, California, USA CTR Postdoctoral Research Fellow</description>
     </item>
     
     <item>
@@ -82,6 +74,16 @@ Project supervisors: Prof. Ali Mani  Department of Mechanical Engineering and De
       
       <guid>https://makrandak.github.io/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://makrandak.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/research/</guid>
+      <description>My research focuses on developing computational frameworks for multiphysics fluid dynamics, combining rigorous numerical analysis, high-fidelity simulation, and high-performance computing. This work bridges physics, applied mathematics, and computer science to enable predictive modeling of complex fluid dynamical systems. Building on this foundation, our research group develops computational tools to study multiphysics transport phenomena relevant to energy systems, aerospace applications, sustainable transport, hydrogen production, and environmental flows.
+ .lb-figure { max-width: 900px; margin: 1.</description>
     </item>
     
   </channel>

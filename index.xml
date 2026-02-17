@@ -6,10 +6,25 @@
     <description>Recent content on Makrand Khanwale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://makrandak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contact</title>
+      <link>https://makrandak.github.io/contact/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://makrandak.github.io/contact/</guid>
+      <description>You can reach me by email at:
+makrand dot khanwale at tum dot de
+Office address (Beginning May 2026):
+Technische Universität München
+Boltzmannstraße 15
+85747 Garching bei München
+Germany</description>
+    </item>
     
     <item>
       <title>An efficient semi-implicit block second order solver for simulating two-phase flows</title>
@@ -65,15 +80,6 @@ Summary In our recent work on fully coupled solver for simulating two-phase flow
 September 2024 – Present
 Supervisor: Prof. Ali Mani
  Develop Reynolds-stress-based turbulence closure models using high-fidelity direct numerical simulations. Develop computational frameworks for modeling compressible multiphase flows for the INSIEME project under the PSAAP-III program. Design scalable numerical methods and simulation tools for multiphysics flow systems on modern high-performance computing architectures.  Center for Turbulence Research, Department of Mechanical Engineering, Stanford University, California, USA CTR Postdoctoral Research Fellow</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://makrandak.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://makrandak.github.io/contact/</guid>
-      <description></description>
     </item>
     
     <item>

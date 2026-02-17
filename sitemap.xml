@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://makrandak.github.io/contact/</loc>
+    <lastmod>2026-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://makrandak.github.io/</loc>
+    <lastmod>2026-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://makrandak.github.io/research_updates/projection-block-solver/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://makrandak.github.io/categories/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://makrandak.github.io/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -60,10 +65,6 @@
   <url>
     <loc>https://makrandak.github.io/experience/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://makrandak.github.io/contact/</loc>
   </url>
   
   <url>

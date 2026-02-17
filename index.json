@@ -1,4 +1,10 @@
 [{
+    "title": "Contact",
+    "date": "",
+    "description": "",
+    "body": "You can reach me by email at:\nmakrand dot khanwale at tum dot de\nOffice address (Beginning May 2026):\nTechnische Universität München\nBoltzmannstraße 15\n85747 Garching bei München\nGermany\n",
+    "ref": "/contact/"
+  },{
     "title": "An efficient semi-implicit block second order solver for simulating two-phase flows",
     "date": "",
     "description": "Our work on development of block projection semi-implicit schemes which are about 4 times faster than fully coupled schemes while preserving stability features.",
@@ -28,12 +34,6 @@
     "description": "",
     "body": " Research Appointments Department of Mechanical Engineering, Stanford University, California, USA Physical Science Research Scientist\nSeptember 2024 – Present\nSupervisor: Prof. Ali Mani\n Develop Reynolds-stress-based turbulence closure models using high-fidelity direct numerical simulations. Develop computational frameworks for modeling compressible multiphase flows for the INSIEME project under the PSAAP-III program. Design scalable numerical methods and simulation tools for multiphysics flow systems on modern high-performance computing architectures.  Center for Turbulence Research, Department of Mechanical Engineering, Stanford University, California, USA CTR Postdoctoral Research Fellow\nAugust 2021 – August 2024\nSupervisor: Prof. Ali Mani\n Developed mathematical models and numerical frameworks for high-fidelity simulation of turbulent single- and multiphase flows. Developed computational models for electrochemical and electrokinetic multiphase transport systems. Performed high-fidelity simulations of reverse osmosis membrane desalination systems. Developed scalable numerical methods for massively parallel multiphase flow simulations.  Department of Mechanical Engineering and Department of Mathematics, Iowa State University, Ames, Iowa, USA Graduate Research Assistant\nAugust 2016 – August 2021\nSupervisors: Prof. Baskar Ganapathysubramanian and Prof. James Rossmanith\nResearch title: Energy-Stable Finite Element Methods for the Simulation of Two-Phase Flows using Cahn-Hilliard Navier-Stokes Equations\n Developed provably energy-stable numerical methods for multiphase flows with deformable interfaces. Implemented thermodynamically consistent Cahn-Hilliard Navier-Stokes solvers on massively parallel adaptive octree meshes using the Dendro framework. Developed scalable simulation tools for resolving interfacial dynamics in complex multiphase systems.  Synthetik Applied Technologies, Austin, Texas, USA Research and Development Engineer\nAugust 2020 – December 2020\n Developed discontinuous Galerkin finite element methods for simulation of highly energetic compressible flows. Implemented parallel solvers in C++ using the MFEM finite element framework.  Cain Department of Chemical Engineering, Louisiana State University, Baton Rouge, Louisiana, USA Research Associate\nNovember 2015 – May 2016\nSupervisor: Prof. Krishnaswamy Nandakumar\n Investigated inter-scale energy transfer mechanisms in turbulent multiphase flows. Developed mathematical frameworks for quantifying energy transfer between scales.   Teaching Experience Department of Mechanical Engineering, Stanford University, California, USA Course Instructor\nWinter 2024\nCourse: ME 300B / CME 204 — Partial Differential Equations in Engineering\nDepartment of Mechanical Engineering, Iowa State University, Ames, Iowa, USA Graduate Teaching Assistant — ME 436 Heat Transfer\nFall 2018, Spring 2019, Spring 2020\n",
     "ref": "/experience/"
-  },{
-    "title": "Contact",
-    "date": "",
-    "description": "",
-    "body": "",
-    "ref": "/contact/"
   },{
     "title": "Research",
     "date": "",

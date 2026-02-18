@@ -4,3 +4,72 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
+/*
+  Custom typography overrides for makrandak.github.io
+  Designed for Hugo Future Imperfect Slim
+  Clean, minimal, and typographically correct.
+*/
+
+/* Load serif fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=EB+Garamond:wght@500;600&display=swap");
+
+
+/* =====================================================
+   Global body typography
+   ===================================================== */
+
+html, body,
+input, textarea, select, button {
+  font-family: "Source Serif 4", "EB Garamond", Georgia, serif !important;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   Headings
+   ===================================================== */
+
+h1, h2, h3, h4, h5, h6,
+#site-intro .site-title,
+.post-title,
+.post-content {
+  font-family: "Source Serif 4", "EB Garamond", Georgia, serif !important;
+  font-weight: 600;
+}
+
+
+/* =====================================================
+   Navigation menu — natural small caps
+   No artificial scaling. Proper typography only.
+   ===================================================== */
+
+#site-nav a,
+#site-nav-menu a,
+nav a {
+  font-family: "EB Garamond", Georgia, serif !important;
+
+  /* true typographic small caps */
+  font-variant-caps: small-caps !important;
+  font-feature-settings: "smcp" 1 !important;
+
+  /* readable size */
+  font-size: 1.02rem !important;
+
+  /* refined spacing */
+  letter-spacing: 0.08em !important;
+
+  font-weight: 600 !important;
+
+  /* ensure proper small-cap rendering */
+  text-transform: lowercase !important;
+}
+
+
+/* =====================================================
+   Sidebar intro text
+   ===================================================== */
+
+#site-intro {
+  font-family: "Source Serif 4", "EB Garamond", Georgia, serif !important;
+}

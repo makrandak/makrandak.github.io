@@ -54,10 +54,10 @@ nav a {
   font-feature-settings: "smcp" 1 !important;
 
   /* readable size */
-  font-size: 1.02rem !important;
+  font-size: 0.85rem !important;
 
   /* refined spacing */
-  letter-spacing: 0.08em !important;
+  letter-spacing: 0.15em !important;
 
   font-weight: 600 !important;
 
